@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-kfch
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0031-tenant/ci10t-786-0031-app/devfile-sample-kfch@sha256:93e95f1e56fb7e1dfe86e9d9f3ba6fdaa56272a627a2d6fedf0aac3fd6702cb8
         name: my-nodejs
         ports:
         - containerPort: 3001
